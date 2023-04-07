@@ -1,0 +1,235 @@
+:root {
+    --primary: #1c2331;
+    --secondary: #e0e0e0;
+    --tertiary: #64ffda;
+    --dark: #0a0c10;
+    --light-dark: #1f2833;
+    --border-radius: 0.3rem;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--dark);
+    background-color: var(--secondary);
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: 700;
+    line-height: 1.25;
+    color: #cbd2e1;
+  }
+  
+  h2 a {
+    color: #cbd2e1;
+    text-decoration: none;
+  }
+  
+  h2 a:visited {
+    color: var(--tertiary);
+  }
+  
+  header {
+    margin-top: 50px;
+  }
+  
+  main {
+    margin: 20px auto;
+    width: 94%;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  p {
+    font-size: 1.2rem;
+  }
+  
+  input {
+    width: 100%;
+    margin: 0 0 5px;
+    padding: 10px;
+    border: 1px solid var(--light-dark);
+    border-radius: var(--border-radius);
+    background: var(--secondary);
+  }
+  
+  .card-header h2 {
+    color: #cbd2e1;
+  }
+  
+  .btn {
+    font-size: 1.3rem;
+    color: var(--secondary);
+    padding: 6px 5px;
+    display: block;
+    width: 100%;
+    margin: 5px 0;
+    border-radius: var(--border-radius);
+    background-color: var(--light-dark);
+    border: none;
+    outline: none;
+    box-shadow: 3px 3px var(--dark);
+    transform: translate(-1px, -1px);
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    color: var(--secondary);
+    background-color: var(--tertiary);
+    transform: translate(0, 0);
+    box-shadow: 2px 2px var(--dark);
+  }
+  
+  .btn-inline {
+    display: inline;
+  }
+  
+  .li-inline {
+    display: inline;
+  }
+  
+  .navbar {
+    width: 100%;
+    position: fixed;
+    background-color: var(--dark);
+  }
+  
+  .nav-item {
+    margin: 0 40px;
+  }
+  
+  .nav-item a {
+    color: var(--secondary);
+  }
+  
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3% 4%;
+    background-color: var(--dark);
+    color: var(--secondary);
+  }
+  
+  .app-title {
+    font-size: 3rem;
+    display: inline-block;
+    padding: 0 10px;
+    color: var(--dark);
+    background-color: var(--tertiary);
+    border-radius: var(--border-radius);
+    box-shadow: 6px 5px var(--light-dark);
+  }
+  
+  .app-title a {
+    color: var(--dark);
+  }
+  
+  .list-group {
+    padding: 1%;
+  }
+  
+  .list-item {
+    margin-bottom: 10px;
+    padding: 1.5%;
+    border-radius: var(--border-radius);
+    background-color: var(--light-dark);
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .list-item:hover {
+    background-color: var(--dark);
+    }
+
+  
+  .card {
+    margin: 0 0 20px 0;
+    border: 3px solid var(--dark);
+    border-radius: var(--border-radius);
+    }
+    
+    .card-header {
+    color: #cbd2e1;
+    background-color: var(--dark);
+    padding: 1%;
+    border-radius: calc(0.18rem - 1px) calc(0.18rem - 1px) 0 0;
+    }
+    
+    .card-body {
+    padding: 1%;
+    }
+    
+    .form-label,
+    .form-input,
+    .form-textarea {
+    display: block;
+    }
+    
+    .form-label {
+    font-size: 1.1rem;
+    margin: 0 0 0 5px;
+    }
+    
+    .form-input {
+    width: 100%;
+    border: 1px solid var(--light-dark);
+    background: var(--secondary);
+    margin: 0 0 5px;
+    padding: 10px;
+    border-radius: var(--border-radius);
+    }
+    
+    .form-textarea {
+    width: 100%;
+    border: 1px solid var(--light-dark);
+    background: var(--secondary);
+    margin: 0 0 5px;
+    padding: 10px;
+    border-radius: var(--border-radius);
+    resize: none;
+    }
+    
+    .btn {
+    font-size: 1.3rem;
+    text-decoration: none;
+    padding: 6px 5px;
+    width: 100%;
+    display: block;
+    margin: 5px 0;
+    border-radius: var(--border-radius);
+    color: var(--secondary);
+    border: none;
+    outline: none;
+    background-color: var(--light-dark);
+    box-shadow: 3px 3px var(--dark);
+    transform: translate(-1px, -1px);
+    }
+    
+    .btn:hover {
+    color: var(--secondary);
+    background-color: var(--tertiary);
+    transform: translate(0, 0);
+    box-shadow: 2px 2px var(--dark);
+    }
+    
+    .btn-inline {
+    display: inline;
+    }
+ 
+    .li-inline {
+    display: inline;
+    }
+    
+   
+   

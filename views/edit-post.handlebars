@@ -1,0 +1,22 @@
+<div class="card">
+  <div class="card-header">
+    <h2>Edit Post</h2>
+  </div>
+  <form id="edit-post-form" class="card-body">
+    <input type="hidden" id="post-id" value="{{post.id}}" />
+  <div>
+  <label for="post-title" class="form-label">Title</label>
+  <input type="text" id="post-title" value="{{post.title}}" class="form-input" />
+</div>
+
+<div>
+  <label for="post-body" class="form-label">Content</label>
+  <textarea id="post-body" class="form-input">{{post.body}}</textarea>
+</div>
+
+<div class="button-group">
+  <button type="submit" class="btn">Update</button>
+  <button type="button" id="delete-btn" class="btn">Delete</button>
+</div>
+ </form>
+</div>  
